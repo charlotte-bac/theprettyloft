@@ -1,0 +1,149 @@
+ /* Logo */
+.img-circle {
+  border-radius: 50%;
+}
+.img-bordered {
+  border: 1px solid white;
+  box-shadow: 3px 3px 7px rgb(0 0 0 / 50%);
+}
+
+ /* Navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
+}
+
+ /* btn btn-light */
+.btn-light {
+  background-color: #F1ABB6;
+  color:  black;
+  border-color: black;
+}
+
+/* Banner */
+.banner {
+  background-color: #F2ABB7;
+  color: white;
+  padding: 150px 0px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  margin-top: 1px;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+/* Caroussel */
+.row h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.carousel-inner{
+  height: 500px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+/* Presentation */
+.imageflottante
+{
+  float: left;
+  margin-right: 50px;
+}
+
+.description {
+    text-align: justify;
+    text-align: center;
+    width:  700px;
+    margin: 40px auto;
+}
+
+.pres {
+    margin: 115px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.pres img {
+    width: 180px;
+    border-radius: 10px;
+}
+.presentation h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Navbar End */
+.endbar {
+  margin-right: auto;
+  margin-left: auto;
+}
+.endbar a {
+  color: #F1ABB6;
+}
+.list-inline {
+ margin-right: auto;
+ margin-left: auto;
+}
+.list-inline li {
+  display: inline;
+  padding: 15px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: white;
+}
+.list-inline i:hover {
+  color: black;
+}
+ul {
+  margin: revert;
+}
+
+/* Prestation */
+.presta {
+  margin-top: 150px;
+}
+
+.presta h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Formulaire contact */
+.col-12 button {
+  background-color: #F1ABB6;
+  border-color: #F1ABB6;
+  font-weight: bold;
+}
+
+.col-12 button:hover {
+  background-color: white;
+  border-color: #F1ABB6;
+  color: #F1ABB6;
+}
+
+/* Carte */
+.loc {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
